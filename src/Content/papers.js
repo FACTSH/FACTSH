@@ -1,5 +1,13 @@
 const papers = [
   {
+    "authors": ["Ashly Ann Jo", "Ebin Deni Raj"],
+    "title": "A short survey on Interpretable techniques with Time series data.",
+    "conference": "15th International IEEE Conference On Computing,Communication AND Networking Technologies (ICCCNT)",
+    "pages": " ",
+    "publisher": "IEEE",
+    "year": 2024
+  },
+  {
     "authors": ["Mahesh Sasikumar", "Ebin Deni Raj"],
     "title": "A short survey on Interpretable techniques with Time series data.",
     "conference": "2024 IEEE International Students' Conference on Electrical, Electronics and Computer Science (SCEECS)",
