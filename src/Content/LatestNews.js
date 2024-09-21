@@ -12,10 +12,5 @@ const News = [
             "news":"Ranjith R, Ashly Ann Jo and Ebin Deni Raj's paper on \"Bipol-Driven Bias Analysis in Transformer Models: A Quantitative, Global, and Local Interpretability Approach for Textual Data \" is accepted for the IEEE World Conference on Applied Intelligence and Computing (AIC 2024).",
             "description":"Accepted"
       },
-      {
-            "news":"Anish Reddy Konyala, Ashly Ann Jo and Ebin Deni Raj's paper on \"Integrating Explainable AI with Machine Learning for Accurate Liver Disease Diagnosis\" is accepted for the 2nd International Conference on Artificial Intelligence: Theory and Applications(AITA 2024).",
-             "description":"Accepted"
-      }
-      
   ];
   export default News
