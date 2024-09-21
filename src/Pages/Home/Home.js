@@ -19,8 +19,8 @@ function Home() {
         <ImageSlider slides={slides} />
       </div>
       {/* <a href={internpdf} target="_blank" rel="noreferrer"> */}
-      <marquee className="marq-css">Congratulations to Dr. Josit Mariya!
-        We are thrilled to announce that Dr. Josit Mariya's Virtual Presentation proposal, "The Suicidal Reading of Sylvia Plath’s Selected Works Under the Theoretical Framework of Durkheim’s Suicide Theory," has been accepted for Asian Conference on Arts & Humanities 2024 Tokyo, Japan. </marquee>
+      <marquee className="marq-css"> We are pleased to announce that FACTS-H LAB, IIIT KOTTAYAM, in association with the Mozilla Foundation, is organizing a one-day workshop on "HARMONY-AI: Human-Aligned Responsible Models for Optimal Next-gen Yields in Automation and Intelligence. 
+      <a href="https://lnkd.in/gzJY-4ij" target="_blank" rel="noreferrer"> Click here to Register</a></marquee>
       {/* </a> */}
           <LatestNews News={News} />
       <div className="text-center  p-2">
