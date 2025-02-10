@@ -10,9 +10,9 @@ const Card = (props) => {
     <div className="card-container">
       {props.ProfileData.map((profile, index) => (
         <div className="card" key={index}>
-          {props.type == "0" ? (
+          {props.type === "0" ? (
             <img
-              src={require(`../../assets/profile/${profile.image.length != 0 ? profile.image : "avatar.png"
+              src={require(`../../assets/profile/${profile.image.length !== 0 ? profile.image : "avatar.png"
                 }`)}
               alt="Card Image"
               className="card-image rounded-circle"
@@ -25,7 +25,7 @@ const Card = (props) => {
             />
           )}
           <h5 className="card-description text-center ">
-            {props.type == "1" || profile.linkedin.length=="" ? (
+            {props.type === "1" || profile.linkedin.length==="" ? (
               <strong>{profile.name}</strong>
             ) : (
               <strong>
@@ -39,7 +39,7 @@ const Card = (props) => {
               </strong>
             )}
           </h5>
-          {props.type == "1" ? (
+          {props.type === "1" ? (
             <center>
               <a
                 href={profile.linkedin}
@@ -56,10 +56,10 @@ const Card = (props) => {
             <></>
           )}
           <h6 className="card-description text-center">
-            {props.type == "1" ? profile.designation : profile.position}
+            {props.type === "1" ? profile.designation : profile.position}
           </h6>
 
-          {props.type == "0" ? (
+          {props.type === "0" ? (
             <div></div>
           ) : (
             <ul className="more-info list-group list-unstyled">
