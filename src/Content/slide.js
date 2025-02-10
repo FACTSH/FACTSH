@@ -1,18 +1,31 @@
 const slides = [
   {
-    name: "banner2.png",
+    name: "factshlogo.jpeg",
   },
+
   {
-    name: "visit1.jpeg",
+    name: "slider_img1.jpeg",
   },
+
   {
-    name: "lab1.png"
+    name: "slider_img2.jpeg",
   },
+
   {
-    name: "iiitkottayam3.jpg",
+    name: "slider_img3.jpeg",
   },
+
   {
-    name: "iiitkottayam1.png",
+    name: "slider_img5.jpeg",
   },
+
+  {
+    name: "slider_img6.jpeg",
+  },
+
+  {
+    name: "slider_img7.jpeg",
+  }
+  
 ];
 export default slides;

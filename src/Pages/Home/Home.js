@@ -18,13 +18,12 @@ function Home() {
       <div className="slider-container">
         <ImageSlider slides={slides} />
       </div>
-      {/* <a href={internpdf} target="_blank" rel="noreferrer"> */}
-      <marquee className="marq-css"> We are pleased to announce that FACTS-H LAB, IIIT KOTTAYAM, in association with the Mozilla Foundation, is organizing a one-day workshop on "HARMONY-AI: Human-Aligned Responsible Models for Optimal Next-gen Yields in Automation and Intelligence. 
-      <a href="https://lnkd.in/gzJY-4ij" target="_blank" rel="noreferrer"> Click here to Register</a></marquee>
+      
+      
       {/* </a> */}
           <LatestNews News={News} />
-      <div className="text-center  p-2">
-        <Heading content="Welcome to the FACTS-H Lab" />
+      <div className="text-center p-2">
+        <Heading content="Welcome to the FACTSnp-H Lab" />
       </div>
       {/* <div className="side-by-side-container"> */}
         <h4 className="text-center my-5 mb-5 tx-color">

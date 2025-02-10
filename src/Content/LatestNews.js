@@ -1,16 +1,14 @@
 const News = [
               {
-        "news":"Subodh Uniyal, Maitri D. Savla, Tushaar, Ashly Ann Jo, and  Ebin Deni Raj Received Best Paper Award for the paper “Transparency in Legal AI: Pioneering Explainable NLP for  Enhanced Judgement Prediction”  in the International Conference on Data Science & Exploration in Artificial Intelligence(CODE-AI), 2024.",
-        "link":"",
-        "description":"Accepted"
+        "news":"FACTS-H Lab at IIIT Kottayam, in collaboration with the Centre for Memory Studies at IIT Madras, conducted a workshop to help educators and researchers use AI ethically and confidently. (---Link---)",
+        "link":"https://www.thehindu.com/news/national/tamil-nadu/workshop-on-ai-to-bridge-gap-between-technology-and-humanities/article68918997.ece",
+        "description":"-"
        },
        {
-        "news":"Susmera Joseph, Ashly Ann Jo and Ebin Deni Raj's paper on \"Improving Time Series Forecasting Accuracy with Transformers: A Comprehensive Analysis with Explainability \" is accepted for the Third International Conference on Electrical, Electronics, Information and Communication Technologies (ICEEICT 2024).",
-        "description":"Accepted"
+        "news":"FACTS-H Lab recently hosted the third and final General Partner Meeting of the AI FORA project, bringing together AI experts from 11 countries to discuss advancements in AI and its applications in public policy. (---Link---)",
+        "link":"https://www.onmanorama.com/career-and-campus/top-news/2025/01/11/iiit-kottayam-hosts-key-ai-fora-meeting.html",
+        "description":"-"
        },
-       {
-            "news":"Ranjith R, Ashly Ann Jo and Ebin Deni Raj's paper on \"Bipol-Driven Bias Analysis in Transformer Models: A Quantitative, Global, and Local Interpretability Approach for Textual Data \" is accepted for the IEEE World Conference on Applied Intelligence and Computing (AIC 2024).",
-            "description":"Accepted"
-      },
+      
   ];
   export default News
