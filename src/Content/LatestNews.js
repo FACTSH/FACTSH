@@ -1,6 +1,6 @@
 const News = [
       {
-            "news":"Congratulations Dr. Jeena Thomas for receiving  the KUSUM DEEP BEST PhD THESIS AWARD 2025 given by  Indian Institute of Technology Roorkee.",
+            "news":"Congratulations Dr. Jeena Thomas for receiving  the KUSUM DEEP BEST PhD THESIS AWARD 2025 given by  Indian Institute of Technology Roorkee.",
             "description":"-"
       },
       {
