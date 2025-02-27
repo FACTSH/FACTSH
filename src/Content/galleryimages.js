@@ -21,8 +21,6 @@ const galleryimage  = [
   
   { src: 'gallery28.jpeg', alt: 'Image 28' },
   { src: 'gallery29.jpeg', alt: 'Image 29' },
-  { src: 'gallery31.jpeg', alt: 'Image 31' },
-  { src: 'gallery32.jpeg', alt: 'Image 32' },
   
   { src: 'gallery35.jpeg', alt: 'Image 35' },
   { src: 'gallery36.jpeg', alt: 'Image 36' },

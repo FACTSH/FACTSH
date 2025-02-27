@@ -20,7 +20,7 @@ const FundProject = () => {
             <tr>
               <th>Funding Agency</th>
               <th>Title</th>
-              <th>Amount (INR)</th>
+              <th>Amount</th>
               <th>Duration</th>
             </tr>
           </thead>
