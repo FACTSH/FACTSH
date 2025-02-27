@@ -23,7 +23,7 @@ function Home() {
       {/* </a> */}
           <LatestNews News={News} />
       <div className="text-center p-2">
-        <Heading content="Welcome to the FACTSnp-H Lab" />
+        <Heading content="Welcome to the FACTS-H Lab" />
       </div>
       {/* <div className="side-by-side-container"> */}
         <h4 className="text-center my-5 mb-5 tx-color">

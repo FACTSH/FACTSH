@@ -76,14 +76,21 @@ const ProfileData = {
         "Post Doc CUSAT, Ph.D. from University of Kerala, Awarded National Post-Doctoral Fellowship, SERB, DST, GOI, former employee HCL Technologies Ltd.",
       research: ["Graph Theory", "Network Science", "Algorithms"],
     },
-  ],
-  PhDScholars: [
     {
       name: "Jeena Thomas",
+      email: "jeenathomas@iiitkottayam.ac.in",
+      phone: "+91 (0) 482-2202278",
       linkedin: "https://www.linkedin.com/in/jeena-thomas-456149167/",
-      image: "jeena.png",
-      position: "Research Scholar",
+      website:"",
+      image: "jeena_thomas.jpeg",
+      designation: "Faculty- IIIT KOTTAYAM",
+      position:
+        "Ph.D from IIIT Kottayam, DST Woman Scientist (Recipient of WOS-A), Doctoral Fellowship from IIT Palakkad Technology IHub Foundation (IPTIF)",
+      research: ["Computer Vision","Image Processing","Responsible Artificial Intelligence"],
     },
+  ],
+  PhDScholars: [
+    
     {
       name: "Shahad P",
       linkedin: "",
