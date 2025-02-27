@@ -6,6 +6,14 @@
   padding: 4px;
 }
 
+/* --- NEW RULE HERE --- */
+.slider-container img {
+  width: auto;         /* Don’t force a fixed width */
+  height: auto;        /* Don’t force a fixed height */
+  max-width: 100%;     /* Let the image scale down if container is too narrow */
+  object-fit: contain; /* Keep the entire image visible without stretching */
+}
+
 .lab-info {
   display: flex;
   flex-wrap: wrap;
@@ -29,38 +37,39 @@
 .obj-component ul {
   color: #000000;
 }
-.tx-color{
+
+.tx-color {
   color: #000000;
 }
-.marq-css{
+
+.marq-css {
   background-color: #d19ea4;
   color: #000000;
   font-size: 20px;
 }
 
-
 .side-by-side-container {
   display: flex;
-  align-items: flex-start; /* Adjust this based on vertical alignment needs */
-  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  align-items: flex-start; /* Adjust based on vertical alignment needs */
+  flex-wrap: wrap;         /* Allow items to wrap for smaller screens */
 }
 
 .side-by-side-container h4 {
-  flex: 1; /* Adjust the value as needed to control the width */
+  flex: 1; 
   margin-right: 20px; /* Space between h4 and LatestNews component */
 }
 
 .side-by-side-container .latest-news-container {
-  flex: 1; /* Adjust the value as needed to control the width */
+  flex: 1;
 }
 
 @media (max-width: 768px) {
   .side-by-side-container {
-    flex-direction: column; /* Stack items vertically on small screens */
+    flex-direction: column; /* Stack vertically on smaller screens */
   }
 
   .side-by-side-container h4 {
-    margin-right: 0; /* Remove the right margin when stacked */
-    margin-bottom: 20px; /* Add a bottom margin for spacing */
+    margin-right: 0; 
+    margin-bottom: 20px;
   }
 }
