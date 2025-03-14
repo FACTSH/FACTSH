@@ -1,5 +1,10 @@
 const News = [
       {
+            "news":"FACTS-H LAB & Mozilla Present a 5-Day Bootcamp on Responsible Computing at IIIT Kottayam – March 17-21, 2025. (---Link---)",
+            "link":"https://raw.githubusercontent.com/AlMIGHTY-HARDIK/test-repo/refs/heads/main/WhatsApp%20Image%202025-03-14%20at%2012.50.58_f4fc1737.jpg",
+            "description":"-"
+       },
+      {
             "news":"Congratulations Dr. Jeena Thomas for receiving  the KUSUM DEEP BEST PhD THESIS AWARD 2025 given by  Indian Institute of Technology Roorkee.",
             "description":"-"
       },
