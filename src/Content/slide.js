@@ -25,7 +25,11 @@ const slides = [
 
   {
     name: "slider_img7.jpeg",
-  }
+  },
+
+  {
+    name: "slider_img8.jpg",
+  },
   
 ];
 export default slides;
