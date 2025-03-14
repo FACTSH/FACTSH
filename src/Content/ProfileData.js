@@ -88,6 +88,18 @@ const ProfileData = {
         "Ph.D from IIIT Kottayam, DST Woman Scientist (Recipient of WOS-A), Doctoral Fellowship from IIT Palakkad Technology IHub Foundation (IPTIF)",
       research: ["Computer Vision","Image Processing","Responsible Artificial Intelligence"],
     },
+    {
+      name: "Dr. Sara Renjit",
+      email: "sararenjit@iiitkottayam.ac.in",
+      phone: "+91 (0) 04822202299",
+      linkedin: "https://www.linkedin.com/in/sara-renjit/?originalSubdomain=in",
+      website:"",
+      image: "Sara.jpeg",
+      designation: "Faculty- IIIT KOTTAYAM",
+      position:
+        "Ph.D from Cochin University of Science and Technology, 2024",
+      research: ["Natural Language Processing", "Explainable AI","DevOps & Agile"],
+    },
   ],
   PhDScholars: [
     
