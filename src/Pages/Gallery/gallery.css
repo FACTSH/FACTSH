@@ -1,22 +1,78 @@
-.gallery{
-  width: 90%;
-  margin: 10% auto;
+/* src/components/gallery.css */
+
+/* 1) Outer wrapper: center it and limit max-width */
+.gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 12px;
+}
+
+/* 2) Heading spacing (if Heading component doesn't already handle it) */
+.gallery h2,
+.gallery h1 {
+  margin-bottom: 16px;
   text-align: center;
 }
+
+/* 3) Masonry grid container (react-masonry-css expects flex behavior) */
+.masonry-grid {
+  display: flex;
+  margin-left: -16px; /* negative left gutter to offset columns */
+  width: auto;
+}
+
+/* 4) Each Masonry column gets left padding (the “gutter”) */
+.masonry-grid_column {
+  padding-left: 16px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* 5) Each individual item (child of a column) gets bottom margin */
+.masonry-grid_column > * {
+  margin-bottom: 16px; /* vertical gutter between cards */
+}
+
+/* 6) If you want each ImageCard to maintain a fixed aspect ratio (e.g., square), wrap img inside a fixed-ratio box */
+.image-card-wrapper {
+  position: relative;
+  overflow: hidden;
+  /* Option A: 1:1 aspect ratio (square) */
+  padding-top: 100%;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 7) For the actual <img> inside .image-card-wrapper */
+.image-card-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-card-wrapper img:hover {
+  transform: scale(1.05);
+}
+
+/* 8) Optional: If ImageCard already has its own container, adjust accordingly.
+   Just ensure .image-card-wrapper is the immediate parent of <img>. */
+
+/* 9) Responsive tweaks—if you need more/less spacing on small screens */
+@media (max-width: 600px) {
+  .gallery {
+    padding: 16px 8px;
+  }
   .masonry-grid {
-    display: -webkit-box; /* Not needed if autoprefixing */
-    display: -ms-flexbox; /* Not needed if autoprefixing */
-    display: flex;
-    /* margin-left: -30px; */
-    width: auto;
+    margin-left: -8px;
   }
   .masonry-grid_column {
-    padding-left: 5px; /* gutter size */
-    background-clip: padding-box;
+    padding-left: 8px;
   }
-  
-  /* Style your items */
-  .masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
-    background: grey;
-    margin-bottom: 5px;
+  .masonry-grid_column > * {
+    margin-bottom: 8px;
   }
+}
