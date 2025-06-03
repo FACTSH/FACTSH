@@ -205,6 +205,12 @@ const ProfileData = {
       image: "Helena_Thomas.png",
       position: "Research Scholar",
     },
+    {
+      name: "Ansith S",
+      linkedin: "https://www.linkedin.com/in/helena-thomas-b15081114",
+      image: "Ansith_Sivadasan.JPG",
+      position: "Research Scholar",
+    },
   ],
   MTech: [
     {
