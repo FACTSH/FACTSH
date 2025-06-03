@@ -1,5 +1,4 @@
 const News = [
-      
       {
             "news":"Reimagining Humanity, Reprogramming AI | Ebin Deni Raj | TEDxAGBSKochi.(---Link---)",
             "link":"https://youtu.be/L6MLud_iIXE?si=yuLVsP6brtOaEu58",
