@@ -1,5 +1,10 @@
 const News = [
       {
+            "news":"Computation and Humanities:Overlapping Research in Digital Spaces(---Link---)",
+            "link":"https://www.iiitkottayam.ac.in/data/pdf/CHORDS%2025%20Flyer.pdf",
+            "description":"-"
+       },
+      {
             "news":"Reimagining Humanity, Reprogramming AI | Ebin Deni Raj | TEDxAGBSKochi.(---Link---)",
             "link":"https://youtu.be/L6MLud_iIXE?si=yuLVsP6brtOaEu58",
             "description":"-"

@@ -58,7 +58,7 @@ const ProfileData = {
       phone: "+91 (0) 482-2202203",
       linkedin: "https://www.linkedin.com/in/josit-mariya-93ab3a253/",
       website:"",
-      image: "jositmariya.png",
+      image: "JS.jpg",
       designation: "Faculty- IIIT KOTTAYAM",
       position:
         "Faculty In-Charge(Webservices & Public Relations),Nodal Officer, AISHE,Associate Faculty In-Charge (Training & Placement Cell)",
@@ -93,12 +93,22 @@ const ProfileData = {
       email: "sararenjit@iiitkottayam.ac.in",
       phone: "+91 (0) 04822202299",
       linkedin: "https://www.linkedin.com/in/sara-renjit/?originalSubdomain=in",
-      website:"",
+      website:"https://www.iiitkottayam.ac.in/#!/faculty/sara",
       image: "Sara.jpeg",
       designation: "Faculty- IIIT KOTTAYAM",
-      position:
-        "Ph.D from Cochin University of Science and Technology, 2024",
+      position:"Ph.D from Cochin University of Science and Technology, 2024",
       research: ["Natural Language Processing", "Explainable AI","DevOps & Agile"],
+    },
+    {
+      name: "Dr. Sushitha Susan Joseph",
+      email: "sushithasj@iiitkottayam.ac.in",
+      phone: " 04822202257",
+      linkedin: "https://www.linkedin.com/in/sara-renjit/?originalSubdomain=in",
+      website:"https://iiitkottayam.ac.in/#!/faculty/sushitha",
+      image: "Sushitha.jpeg",
+      designation: "Faculty- IIIT KOTTAYAM",
+      position:"Ph.D from Vellore Institute of Technology, 2024",
+      research: ["Machine Learning", "Deep Learning", "Medical Image Processing"],
     },
   ],
   PhDScholars: [
@@ -124,7 +134,7 @@ const ProfileData = {
     {
       name: "Mahesh Sasikumar",
       linkedin: "https://www.linkedin.com/in/mahesh-sasikumar-iiitk-4606192a3/",
-      image: "Mahesh_Sasikumar.png",
+      image: "Mahesh.jpg",
       position: "Research Scholar",
     },
     {
@@ -213,88 +223,206 @@ const ProfileData = {
     },
   ],
   MTech: [
+   
     {
-      name: "Ranjith R",
-      linkedin: "https://www.linkedin.com/in/ranjith-r-3656aa10b/",
-      image: "ranjith.png",
-      position: "ML Engineer @ IBS Software ",
+      name: " Laxmi Priya Kasi",
+      linkedin: "",
+      image: "LAXMI PRIYA KASI -.jpg",
+      position: "Machine Learning Engineer, Clinical AI Team, Apollo Hospitals",
     },
-    {
-      name: "Susmera Joseph",
-      linkedin: "https://www.linkedin.com/in/susmera-joseph-769a3937/",
-      image: "SUSMERA_JOSEPH.png",
-      position: "Full Stack Developer @DEWA Centre",
-    },
-    {
-      name: "Ijas AH",
-      linkedin: "https://www.linkedin.com/in/ijas-ah/",
-      image: "Ijas_A_H.png",
-      position: "Deep Learning Engineer @cognizant",
-    },
-    {
-      name: "Selvaraj Mariyappan",
-      linkedin: "https://www.linkedin.com/in/selvaraj-mariyappan-12629864/",
-      image: "SELVARAJ_MARIYAPPAN.png",
-      position: "Solution Architect @ Vantiva",
-    },
+    
   ],
   UG: [
+   
     {
-      name: "Subodh Uniyal",
-      linkedin: "https://www.linkedin.com/in/subodh7300/",
-      image: "SUBODH_UNIYAL.png",
-      position: "CSE",
+      name:"Harissh Ragav Dhamodaran",
+      linkedin:"",
+      image:"HARISSH RAGAV DHAMODARAN.jpeg",
+      position:""
+
     },
     {
-      name: "Raunak Kumar Singh",
-      linkedin: "https://www.linkedin.com/in/raunak554/",
-      image: "raunak.png",
-      position: "CSE",
+      name:" Vidya Kaarthika Akella",
+      linkedin:"",
+      image:"VIDYA KAARTHIKA A -IIITK.jpeg",
+      position:""
+
     },
     {
-      name: "Jasmin Bheda",
-      linkedin: "https://www.linkedin.com/in/jasmin-bheda-407419202",
-      image: "jasmin.jpeg",
-      position: "CSE",
+      name:" Suraj Nagunuri",
+      linkedin:"",
+      image:"Suraj Nagunuri.jpg",
+      position:""
+
     },
     {
-      name: "Maitri Deepak Savla",
-      linkedin: "https://www.linkedin.com/in/maitri-savla-a5544b229",
-      image: "MAITRI_DEEPAK_SAVLA.png",
-      position: "CSE",
+      name:"Bavishya Sankaranarayanan",
+      linkedin:"",
+      image:"Bavishya S.jpg",
+      position:""
+
     },
     {
-      name: "Tushar K",
-      linkedin: "https://www.linkedin.com/in/tushaar9560",
-      image: "TUSHAAR.png",
-      position: "CSE",
+      name:"Lochana Balivada",
+      linkedin:"",
+      image:"LOCHANA BALIVADA.jpg",
+      position:"CSE"
+
     },
     {
-      name: "Dhivyesh",
-      linkedin: "https://www.linkedin.com/in/dhivyesh-rk/",
-      image: "DHIVYESH_R_K.png",
-      position: "CSE",
+      name:"Shivkarthik Suresh ",
+      linkedin:"",
+      image:"Shivkarthik Suresh.jpg",
+      position:"CSE"
+
     },
+    
     {
-      name: "Anish Reddy Konyala",
-      linkedin: "https://linkedin.com/in/anish-reddy-konyala-9496ab229/",
-      image: "KONYALA_ANISH_REDDY.png",
+      name: "Suraj Nagunuri",
+      linkedin: "",
+      image: "Suraj Nagunuri.jpg",
       position: "CSE",
     },
+
     {
-      name: "Kashyap Chandra",
-      linkedin: "https://www.linkedin.com/in/kashyap-chandra-7a1132218",
-      image: "kashyap_chandra.png",
-      position: "CSE",
+      name: "Rithika E",
+      linkedin: "",
+      image: "Rithika E.jpg",
+      position: "CSE ",
     },
+
     {
-      name: "Hardik Somkuwar",
-      linkedin: "https://www.linkedin.com/in/hardik-somkuwar-761aa921b/",
-      image: "SOMKUWAR_HAR_DIKPRAKASH.jpg",
-      position: "CSE",
+      name: "Badam Malavika",
+      linkedin: "",
+      image: "BADAM MALAVIKA.jpg",
+      position: "CSE ",
     },
+
+    {
+      name: "J Glen Enosh",
+      linkedin: "",
+      image: "J GLEN ENOSH.jpg",
+      position: "CSE  AI & DS",
+    },
+    
   ],
   Interns: [
+   {
+      name:"Oliva Jayakanthan",
+      linkedin:"",
+      image:"IM oliva.jpg",
+      position:""
+
+    },
+  
+    {
+      name:"Ashwin P.S",
+      linkedin:"",
+      image:"Ashwin P S.jpg",
+      position:""
+
+    },
+    
+    {
+      name:"Aseem T A",
+      linkedin:"",
+      image:"Aseem.jpg",
+      position:""
+
+    },
+   
+    {
+      name:"  SREEKUTTY C S",
+      linkedin:"",
+      image:"SREEKUTTY CS.jpg",
+      position:""
+
+    },
+    {
+      name:" Franklin James ",
+      linkedin:"",
+      image:"Franklin James.jpg",
+      position:""
+
+    },
+    
+    {
+      name:" Ajay Thomas ",
+      linkedin:"",
+      image:"ajay thomas.jpg",
+      position:""
+
+    },
+ 
+    {
+      name:" Gayathri Anil ",
+      linkedin:"",
+      image:"Gayathri Anil.jpeg",
+      position:""
+
+    },
+   
+     {
+      name:"  ABHIRAMI S ",
+      linkedin:"",
+      image:"abhirami s.jpg",
+      position:""
+
+    },
+    {
+      name:" Neha jimmy ",
+      linkedin:"",
+      image:"Neha Jimmy.jpg",
+      position:""
+
+    },
+
+     {
+      name:" Athulya Alex ",
+      linkedin:"",
+      image:"athulya alex.jpg",
+      position:""
+
+    },
+
+    {
+      name:"Boddu Navyasree",
+      linkedin:"",
+      image:"navyasree navyasreeboddu.jpeg",
+      position:""
+
+    },
+    
+     {
+      name:"Gauri Nandana G",
+      linkedin:"",
+      image:"Gauri Nandana.jpg",
+      position:""
+
+    },
+    {
+      name:"Andriya Kurian",
+      linkedin:"",
+      image:"Andriya Kurian.jpg",
+      position:""
+
+    },
+    {
+      name:"Aditi Krishnan ",
+      linkedin:"",
+      image:"ADITI KRISHNAN.jpg",
+      position:""
+
+    },
+
+    
+    {
+      name:"Naznin M Ali",
+      linkedin:"",
+      image:"Naznin.jpg",
+      position:""
+
+    },
     {
       name:"Arundhathi Nair S",
       linkedin:"https://www.linkedin.com/in/arundhathi-nair-s/",
@@ -357,6 +485,84 @@ const ProfileData = {
     },
   ],
   Alumni: [
+    {
+      name: "Subodh Uniyal",
+      linkedin: "https://www.linkedin.com/in/subodh7300/",
+      image: "SUBODH_UNIYAL.png",
+      position: "CSE",
+    },
+    {
+      name: "Raunak Kumar Singh",
+      linkedin: "https://www.linkedin.com/in/raunak554/",
+      image: "raunak.png",
+      position: "CSE",
+    },
+    {
+      name: "Jasmin Bheda",
+      linkedin: "https://www.linkedin.com/in/jasmin-bheda-407419202",
+      image: "jasmin.jpeg",
+      position: "CSE",
+    },
+    {
+      name: "Maitri Deepak Savla",
+      linkedin: "https://www.linkedin.com/in/maitri-savla-a5544b229",
+      image: "MAITRI_DEEPAK_SAVLA.png",
+      position: "CSE",
+    },
+    {
+      name: "Tushar K",
+      linkedin: "https://www.linkedin.com/in/tushaar9560",
+      image: "TUSHAAR.png",
+      position: "CSE",
+    },
+    {
+      name: "Dhivyesh",
+      linkedin: "https://www.linkedin.com/in/dhivyesh-rk/",
+      image: "DHIVYESH_R_K.png",
+      position: "CSE",
+    },
+    {
+      name: "Anish Reddy Konyala",
+      linkedin: "https://linkedin.com/in/anish-reddy-konyala-9496ab229/",
+      image: "KONYALA_ANISH_REDDY.png",
+      position: "CSE",
+    },
+    {
+      name: "Kashyap Chandra",
+      linkedin: "https://www.linkedin.com/in/kashyap-chandra-7a1132218",
+      image: "kashyap_chandra.png",
+      position: "CSE",
+    },
+    {
+      name: "Hardik Somkuwar",
+      linkedin: "https://www.linkedin.com/in/hardik-somkuwar-761aa921b/",
+      image: "SOMKUWAR_HAR_DIKPRAKASH.jpg",
+      position: "CSE",
+    },
+    {
+      name: "Ranjith R",
+      linkedin: "https://www.linkedin.com/in/ranjith-r-3656aa10b/",
+      image: "ranjith.png",
+      position: "ML Engineer @ IBS Software ",
+    },
+    {
+      name: "Susmera Joseph",
+      linkedin: "https://www.linkedin.com/in/susmera-joseph-769a3937/",
+      image: "SUSMERA_JOSEPH.png",
+      position: "Full Stack Developer @DEWA Centre",
+    },
+    {
+      name: "Ijas AH",
+      linkedin: "https://www.linkedin.com/in/ijas-ah/",
+      image: "Ijas_A_H.png",
+      position: "Deep Learning Engineer @cognizant",
+    },
+    {
+      name: "Selvaraj Mariyappan",
+      linkedin: "https://www.linkedin.com/in/selvaraj-mariyappan-12629864/",
+      image: "SELVARAJ_MARIYAPPAN.png",
+      position: "Solution Architect @ Vantiva",
+    },
     {
       name: "Thiruthuvaraj Rajshekar",
       linkedin: "",

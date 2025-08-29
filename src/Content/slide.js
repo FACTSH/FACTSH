@@ -2,6 +2,9 @@ const slides = [
   {
     name: "factshlogo.jpeg",
   },
+  {
+    name: "slider_img.JPG",
+  },
 
   {
     name: "slider_img1.jpeg",
@@ -28,8 +31,9 @@ const slides = [
   },
 
   {
-    name: "slider_img8.jpg",
+    name: "slider_img8.JPG",
   },
+  
   
 ];
 export default slides;
