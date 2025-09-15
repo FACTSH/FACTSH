@@ -1,5 +1,10 @@
 const News = [
       {
+            "news":"Congragulations!!! Best paper AwardBest Paper Award  AI Explain: AI-Generated Graphic Storytelling for Explaining AI Across Cultures By Petra Ahrweiler, Gayathri Geetha Rajan(---Link---)",
+            "link":"https://drive.google.com/file/d/12903REQc9jOBDGgpTpkownMKlCDou_f0/view?usp=sharing",
+            "description":"-"
+       },
+      {
             "news":"Computation and Humanities:Overlapping Research in Digital Spaces(---Link---)",
             "link":"https://www.iiitkottayam.ac.in/data/pdf/CHORDS%2025%20Flyer.pdf",
             "description":"-"
