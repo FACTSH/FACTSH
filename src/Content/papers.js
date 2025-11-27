@@ -168,7 +168,23 @@ const papers = [
     "publisher":"MDPI",
     "year": 2024,
     "website": "https://www.preprints.org/manuscript/202402.1674/v1"
-  }
+  },
+  {
+        "authors": ["Ashly Ann Jo", "Ebin Deni Raj", "Jayakrushna Sahoo"],
+        "title": "Efficiency and Performance Optimization in Large Language Models through IB Fine-Tuning.",
+        "conference": "ACM Transactions on Intelligent Systems and Technology",
+        "publisher":"ACM",
+        "year": 2024
+  },
+
+  {
+        "authors": ["Mahesh Sasikumar", "Ebin Deni Raj"],
+        "title": "Investigating explainability of deep learning models for sequential data on stock price prediction.",
+        "conference": "International Conference on Machine Learning and Data Engineering",
+        "publisher":"Elsevier",
+        "year": 2024
+  },
+
 ];
 
 export default papers;

@@ -65,7 +65,7 @@ const ProfileData = {
       research: ["Cultural Hegemony", "Sociological Studies"],
     },
     {
-      name: "Divya Sindhu Lekha",
+      name: "Dr.Divya Sindhu Lekha",
       email: "divyaslekha@iiitkottayam.ac.in",
       phone: "+91 (0) 482-2202161",
       linkedin: "https://www.linkedin.com/in/divyalekha/",
@@ -77,7 +77,7 @@ const ProfileData = {
       research: ["Graph Theory", "Network Science", "Algorithms"],
     },
     {
-      name: "Jeena Thomas",
+      name: "Dr.Jeena Thomas",
       email: "jeenathomas@iiitkottayam.ac.in",
       phone: "+91 (0) 482-2202278",
       linkedin: "https://www.linkedin.com/in/jeena-thomas-456149167/",
@@ -109,6 +109,18 @@ const ProfileData = {
       designation: "Faculty- IIIT KOTTAYAM",
       position:"Ph.D from Vellore Institute of Technology, 2024",
       research: ["Machine Learning", "Deep Learning", "Medical Image Processing"],
+    },
+    {
+      name: "Mr.Ansith S",
+      email:"ansiths@iiitkottayam.ac.in",
+      phone: "0482-2202229",
+      linkedin: "https://www.linkedin.com/in/ansith-s-b12b2a67/?originalSubdomain=in",
+      website:"https://www.iiitkottayam.ac.in/#!/faculty/ansiths",
+      image: "Ansith_Sivadasan.JPG",
+      designation: "Faculty- IIIT KOTTAYAM",
+      position:"Ph.D pursuing from IIIT KOTTAYAM, 2025",
+      research: ["Remote sensing","Computer vision", "Deep learning", "Explainable AI", "image processing"],
+
     },
   ],
   PhDScholars: [
@@ -213,12 +225,6 @@ const ProfileData = {
       name: "Helena Thomas",
       linkedin: "https://www.linkedin.com/in/helena-thomas-b15081114",
       image: "Helena_Thomas.png",
-      position: "Research Scholar",
-    },
-    {
-      name: "Ansith S",
-      linkedin: "https://www.linkedin.com/in/helena-thomas-b15081114",
-      image: "Ansith_Sivadasan.JPG",
       position: "Research Scholar",
     },
   ],
