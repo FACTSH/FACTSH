@@ -7,7 +7,7 @@ import faqData from '../../Content/faqData';
 const Internship = () => {
   return (
     <div className="page-container">
-      <h1 className="text-center my-4"> Call for Summer Internships 2025 FACTS-H Lab</h1>
+      <h1 className="text-center my-4"> Call for Summer Internships 2026 FACTS-H Lab</h1>
       {/* <h5 className="text-center">Fair and Accountable, Computing solutions that are Transparent with Sociological and Humanistic Insights</h5> */}
       
       
@@ -35,6 +35,10 @@ const Internship = () => {
             <li>Dr. Gayathri G. R (0482-2202184)</li>
             <li>Dr. Jayakrushna Sahoo (0482-2202190)</li>
             <li>Dr. Josit Mariya (0482-2202203)</li>
+            <li>Dr Jeena Thomas -(0482-2202278)</li>
+            <li>Dr Sara Renjit - (0482-2202299)</li>
+            <li>Dr Sushitha Susan Joseph - (0482-2202257)</li>
+            <li>Dr Ansith S- (0482-2202229)</li>
           </ul>
         </div>
         <div className="section">
@@ -72,7 +76,7 @@ const Internship = () => {
           <h3>Registration link</h3>
           <div className="brcode">
           {/* <img src={barcode} alt="img not available"/>  */}
-          <a href="https://forms.gle/fwVSasnN84259bZq5">Apply&nbsp;Now</a>
+          <a href="https://forms.gle/EybnTZ5VoMzZaY2R9">Apply&nbsp;Now</a>
           </div>
         </div>
         <div className="section">
