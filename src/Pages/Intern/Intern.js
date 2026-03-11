@@ -69,7 +69,7 @@ const Internship = () => {
             {/* <li>Internship Commences on: 22 April 2024</li> */}
             {/* <li>Internship fee: 5000/-</li> */}
             <li>Payment link: <a href="https://www.onlinesbi.sbi/sbicollect/">Pay&nbsp;Now</a></li>
-            <li>(Educational Institute &#8594; III KOTTAYAM &#8594; Summer Internship 2024 FACTS-H Lab )</li>
+            <li>(Educational Institute &#8594; III KOTTAYAM &#8594; Summer Internship 2026 FACTS-H Lab )</li>
           </ul>
         </div>
         <div className="section">
