@@ -3,6 +3,10 @@ const slides = [
     name: "factshlogo.jpeg",
   },
   {
+    name: "internship.png",
+  },
+
+  {
     name: "slider_img.JPG",
   },
 

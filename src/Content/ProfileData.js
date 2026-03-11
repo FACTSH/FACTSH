@@ -111,7 +111,7 @@ const ProfileData = {
       research: ["Machine Learning", "Deep Learning", "Medical Image Processing"],
     },
     {
-      name: "Mr.Ansith S",
+      name: "Dr.Ansith S",
       email:"ansiths@iiitkottayam.ac.in",
       phone: "0482-2202229",
       linkedin: "https://www.linkedin.com/in/ansith-s-b12b2a67/?originalSubdomain=in",
