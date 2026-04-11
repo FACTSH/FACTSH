@@ -122,6 +122,18 @@ const ProfileData = {
       research: ["Remote sensing","Computer vision", "Deep learning", "Explainable AI", "image processing"],
 
     },
+    {
+      name: "Dr. Anu Maria Sebastian",
+      email:"anumaria@iiitkottayam.ac.in",
+      phone: "04822202228",
+      linkedin: "https://www.linkedin.com/in/anumseb/",
+      website:"https://www.iiitkottayam.ac.in/#!/faculty/anumaria",
+      image: "anumaria.jpg",
+      designation: "Faculty- IIIT KOTTAYAM",
+      position:"Cochin University of Science and Technology (2025)",
+      research: ["Data centric AI and missing data imputation","Data analysis for Healthcare  Explainable AI" , "Multimodal AI systems"],
+
+    },
   ],
   PhDScholars: [
     
