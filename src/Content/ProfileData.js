@@ -161,18 +161,8 @@ const ProfileData = {
       image: "Mahesh.jpg",
       position: "Research Scholar",
     },
-    {
-      name: "Akarsh Nair",
-      linkedin: "https://www.linkedin.com/in/akarsh-k-nair-03298220b/",
-      image: "akarsh.png",
-      position: "Research Scholar",
-    },
-    {
-      name: "Chinju John",
-      linkedin: "https://https://www.linkedin.com/in/chinju-john-a95876b4/",
-      image: "chinju.png",
-      position: "Research Scholar",
-    },
+    
+    
     {
       name: "Anitha Ambat",
       linkedin: "https://www.linkedin.com/in/anitha-ambat-198a36243",
@@ -215,12 +205,7 @@ const ProfileData = {
       image: "",
       position: "Research Scholar",
     },
-    {
-      name: "Jisha Mariyam John",
-      linkedin: "https://www.linkedin.com/in/jisha-mariyam-john-14575294/",
-      image: "JISHA_MARIYAM_JOHN.png",
-      position: "Research Scholar",
-    },
+   
     {
       name: "Neethu Krishna",
       linkedin: "https://www.linkedin.com/in/neethu-krishna-29b667235",
@@ -237,6 +222,18 @@ const ProfileData = {
       name: "Helena Thomas",
       linkedin: "https://www.linkedin.com/in/helena-thomas-b15081114",
       image: "Helena_Thomas.png",
+      position: "Research Scholar",
+    },
+    {
+      name: "Aparna Unnikrishnan",
+      linkedin: "https://www.linkedin.com/in/aparnau004/",
+      image: "Aps.jpeg",
+      position: "Research Scholar",
+    },
+    {
+      name: "Juliet Anu Toms",
+      linkedin: "https://www.linkedin.com/in/juliet-anu-toms-a534b929b/",
+      image: "Juliet.jpeg",
       position: "Research Scholar",
     },
   ],
@@ -503,6 +500,24 @@ const ProfileData = {
     },
   ],
   Alumni: [
+    {
+      name: "Chinju John",
+      linkedin: "https://https://www.linkedin.com/in/chinju-john-a95876b4/",
+      image: "chinju.png",
+      position: "CSE",
+    },
+     {
+      name: "Jisha Mariyam John",
+      linkedin: "https://www.linkedin.com/in/jisha-mariyam-john-14575294/",
+      image: "JISHA_MARIYAM_JOHN.png",
+      position: "CSE",
+    },
+    {
+      name: "Akarsh Nair",
+      linkedin: "https://www.linkedin.com/in/akarsh-k-nair-03298220b/",
+      image: "akarsh.png",
+      position: "CSE",
+    },
     {
       name: "Subodh Uniyal",
       linkedin: "https://www.linkedin.com/in/subodh7300/",
