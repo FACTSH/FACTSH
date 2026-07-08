@@ -1,60 +1,40 @@
 import React from "react";
-import ImageSlider from "../../components/ImageSlider/ImageSlider";
-import Card from "../../components/Card/Card";
-import Heading from "../../components/Heading/Heading";
-import ObjectiveData from "../../Content/objective";
-import ProfileData from "../../Content/ProfileData";
-import slides from "../../Content/slide";
-import internpdf from "../../assets/images/publishedpaper.pdf";
+import { Link } from "react-router-dom";
+import Hero3D from "../../components/Hero3D/Hero3D";
 import "./home.css";
-import LatestNews from "../../components/LatestNews/LatestNews";
-import News from "../../Content/LatestNews";
-import ObjectiveCard from "../../components/ObjectiveCard/ObjectiveCard";
 
 function Home() {
-  console.log(ProfileData);
   return (
-    <div >
-      <div className="slider-container">
-        <ImageSlider slides={slides} />
-      </div>
-      
-      
-      {/* </a> */}
-          <LatestNews News={News} />
-      <div className="text-center p-2">
-        <Heading content="Welcome to the FACTS-H Lab" />
-      </div>
-      {/* <div className="side-by-side-container"> */}
-        <h4 className="text-center my-5 mb-5 tx-color">
-          We are dedicated to Advancing Responsible, Transparent, and Secure
-          Computing. With a focus on fairness, accountability, and transparency,
-          our lab integrates sociological and humanistic insights into computing
-          solutions. Let's delve into how our interdisciplinary team and research
-          areas are shaping the future of technology.
-        </h4>
-        {/* <div className="latest-news-container">
-        </div> */}
-      {/* </div> */}
-      <div className="container">
-        <div className="lab-info">
-          {ObjectiveData.map((item, index) => (
-            <ObjectiveCard
-              key={index}
-              title={item.title}
-              description={item.description}
-            />
-          ))}
+    <div className="home">
+      {/* ---- Hero (3D emblem) — the whole of the Home page ---- */}
+      <section id="hero">
+        <Hero3D />
+        <div className="hero-content wrap">
+          <div className="eyebrow">Interpretability &amp; responsible AI research</div>
+          <h1 className="hero-title">
+            Every decision leaves <em>a path.</em><br />We trace it.
+          </h1>
+          <p className="hero-sub">
+            FACTS-H Lab studies how AI systems arrive at their decisions — and works
+            with the humanities and social sciences to make sure those decisions
+            answer to the people they affect.
+          </p>
+          <div className="hero-cta">
+            <Link to="/vision" className="btn-gold">Our vision</Link>
+            <Link to="/news" className="btn-ghost">Latest from the lab</Link>
+          </div>
         </div>
-      </div>
-      <div className="container">
-        <div className="lab-info">
+        <div className="hero-foot">
+          <div className="hero-foot-brand">FACTS-H Lab</div>
+          <nav className="hero-foot-links">
+            <Link to="/vision">Vision</Link>
+            <Link to="/news">News</Link>
+            <Link to="/fundproject">Research</Link>
+            <a href="mailto:factsh@iiitkottayam.ac.in">Email</a>
+          </nav>
+          <div className="hero-foot-copy">© {new Date().getFullYear()} FACTS-H Lab</div>
         </div>
-      </div>
-      <Heading content="Faculty Members" />
-      <div className="container" >
-        <Card ProfileData={ProfileData.Faculty} type="1" />
-      </div>
+      </section>
     </div>
   );
 }

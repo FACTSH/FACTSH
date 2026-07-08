@@ -1,88 +1,96 @@
 import React, { useState } from 'react';
-import Heading from '../../components/Heading/Heading';
 import './intern.css';
 import faqData from '../../Content/faqData';
 
+const thrustAreas = [
+  'Responsible AI',
+  'Digital Humanities',
+  'Data Privacy & Security',
+  'Explainable Machine Learning',
+  'Cultural Analytics',
+];
+
+const facultyMentors = [
+  { name: 'Dr. Ebin Deni Raj', phone: '0482-2202195' },
+  { name: 'Dr. Arun Cyril Jose', phone: '0482-2202159' },
+  { name: 'Dr. Divya Sindhu Lekha', phone: '0482-2202161' },
+  { name: 'Dr. Gayathri G. R', phone: '0482-2202184' },
+  { name: 'Dr. Jayakrushna Sahoo', phone: '0482-2202190' },
+  { name: 'Dr. Josit Mariya', phone: '0482-2202203' },
+  { name: 'Dr Jeena Thomas', phone: '0482-2202278' },
+  { name: 'Dr Sara Renjit', phone: '0482-2202299' },
+  { name: 'Dr Sushitha Susan Joseph', phone: '0482-2202257' },
+  { name: 'Dr Ansith S', phone: '0482-2202229' },
+];
+
+const quickFacts = [
+  { label: 'Mode', value: 'Hybrid' },
+  { label: 'Duration', value: '8–12 weeks' },
+  { label: 'Undergraduate', value: 'B.Tech / B.E / B.Sc / BCA / B.A' },
+  { label: 'Postgraduate', value: 'M.Tech / ME / M.Sc / MCA / MA' },
+];
 
 const Internship = () => {
   return (
-    <div className="page-container">
-      <h1 className="text-center my-4"> Call for Summer Internships 2026 FACTS-H Lab</h1>
-      {/* <h5 className="text-center">Fair and Accountable, Computing solutions that are Transparent with Sociological and Humanistic Insights</h5> */}
-      
-      
-      
-      <div className="section">
-          <h4 className="text-center">"FACTS-H' emphasizes a fact-based, ethical approach, integrating key principles of fairness, accountability, and transparency in computing, while also acknowledging the critical role of sociology and humanities.</h4>
-        </div>
-      <div className="left-column">
-        <div className="section">
-          <h3>Thrust Areas</h3>
-          <ul>
-            <li>Responsible AI</li>
-            <li>Digital Humanities</li>
-            <li>Data Privacy and Security</li>
-            <li>Explainable Machine Learning</li>
-            <li>Cultural Analytics</li>
-          </ul>
-        </div>
-        <div className="section">
-          <h3>Faculty</h3>
-          <ul>
-            <li>Dr. Ebin Deni Raj (0482-2202195)</li>
-            <li>Dr. Arun Cyril Jose (0482-2202159)</li>
-            <li>Dr. Divya Sindhu Lekha (0482-2202161)</li>
-            <li>Dr. Gayathri G. R (0482-2202184)</li>
-            <li>Dr. Jayakrushna Sahoo (0482-2202190)</li>
-            <li>Dr. Josit Mariya (0482-2202203)</li>
-            <li>Dr Jeena Thomas -(0482-2202278)</li>
-            <li>Dr Sara Renjit - (0482-2202299)</li>
-            <li>Dr Sushitha Susan Joseph - (0482-2202257)</li>
-            <li>Dr Ansith S- (0482-2202229)</li>
-          </ul>
-        </div>
-        <div className="section">
-          <h3>Benefits</h3>
-          <ul>
-            <li>Internships offer scholarships, participation in FACTS-H Lab's international projects, access to its high-end computing facility, and a certificate upon completion.</li>
-            {/* <li>Best internships (evaluated on outcome basis) will be provided scholarships</li>
-            <li>Opportunity to be part of International projects of FACTS-H Lab</li>
-            <li>Access to use the High-end computing facility in FACTS-H LAB.</li>
-            <li>You will get the certificate for the internship</li> */}
-          </ul>
+    <div className="intern-page">
+      <div className="panel-eyebrow">Applications open</div>
+      <div className="panel-title">Summer Internship 2026</div>
+      <p className="intern-lead">
+        "FACTS-H" emphasizes a fact-based, ethical approach, integrating key
+        principles of fairness, accountability, and transparency in computing,
+        while acknowledging the critical role of sociology and humanities.
+      </p>
+
+      <div className="intern-cta">
+        <a className="btn-gold" href="https://forms.gle/EybnTZ5VoMzZaY2R9" target="_blank" rel="noopener noreferrer">Apply now</a>
+        <a className="btn-ghost" href="https://www.onlinesbi.sbi/sbicollect/" target="_blank" rel="noopener noreferrer">Pay now</a>
+      </div>
+      <p className="intern-payment-hint">
+        Educational Institute &#8594; IIIT Kottayam &#8594; Summer Internship 2026 FACTS-H Lab
+      </p>
+
+      <div className="quick-facts">
+        {quickFacts.map((f, i) => (
+          <div className="fact-card" key={i}>
+            <div className="fact-label">{f.label}</div>
+            <div className="fact-value">{f.value}</div>
+          </div>
+        ))}
+      </div>
+
+      <div className="intern-block">
+        <h3>Thrust Areas</h3>
+        <div className="tag-row">
+          {thrustAreas.map((t, i) => (
+            <span className="thrust-tag" key={i}>{t}</span>
+          ))}
         </div>
       </div>
-      <div className="right-column">
-        <div className="section">
-          <h3>Eligibility Criteria</h3>
-          <ul>
-            <li>Undergraduate: B.Tech./B.E./B.Sc./BCA/B.A</li>
-            <li>Postgraduate: M.Tech./ME/MSc./MCA/MA</li>
-          </ul>
+
+      <div className="intern-block highlight-block">
+        <h3>Benefits</h3>
+        <p>
+          Internships offer scholarships, participation in FACTS-H Lab's
+          international projects, access to its high-end computing facility,
+          and a certificate upon completion.
+        </p>
+      </div>
+
+      <div className="intern-block">
+        <h3>Faculty Mentors</h3>
+        <div className="mentor-grid">
+          {facultyMentors.map((m, i) => (
+            <div className="mentor-card" key={i}>
+              <div className="mentor-name">{m.name}</div>
+              <div className="mentor-phone">{m.phone}</div>
+            </div>
+          ))}
         </div>
-        <div className="section">
-          <h3>Internship Details</h3>
-          <ul>
-            <li>Mode of Internship: Hybrid</li>
-            <li>Duration: 8 to 12 weeks</li>
-            {/* <li>Application Deadline: 5 April 2024</li> */}
-            {/* <li>Internship Commences on: 22 April 2024</li> */}
-            {/* <li>Internship fee: 5000/-</li> */}
-            <li>Payment link: <a href="https://www.onlinesbi.sbi/sbicollect/">Pay&nbsp;Now</a></li>
-            <li>(Educational Institute &#8594; III KOTTAYAM &#8594; Summer Internship 2026 FACTS-H Lab )</li>
-          </ul>
-        </div>
-        <div className="section">
-          <h3>Registration link</h3>
-          <div className="brcode">
-          {/* <img src={barcode} alt="img not available"/>  */}
-          <a href="https://forms.gle/EybnTZ5VoMzZaY2R9">Apply&nbsp;Now</a>
-          </div>
-        </div>
-        <div className="section">
-          <h3>Contact</h3>
-          <p>Reach us: <a href="mailto:factsh@iiiitkottayam.ac.in">factsh@iiiitkottayam.ac.in</a></p>
-        </div>
+      </div>
+
+      <div className="intern-block contact-block">
+        <h3>Contact</h3>
+        <p>Reach us at <a href="mailto:factsh@iiitkottayam.ac.in">factsh@iiitkottayam.ac.in</a></p>
       </div>
     </div>
   );
@@ -92,15 +100,8 @@ function FAQ({ faqData }) {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAccordion = (index) => {
-    if (activeIndex === index) {
-      // If clicked again on the same item, collapse it
-      setActiveIndex(null);
-    } else {
-      // Otherwise, expand the clicked item
-      setActiveIndex(index);
-    }
+    setActiveIndex((prev) => (prev === index ? null : index));
   };
-
 
   return (
     <div className="accordion" id="faqAccordion">
@@ -121,7 +122,6 @@ function FAQ({ faqData }) {
             id={`collapse${index}`}
             className={`accordion-collapse collapse ${activeIndex === index ? 'show' : ''}`}
             aria-labelledby={`heading${index}`}
-            data-bs-parent="#faqAccordion"
           >
             <div className="accordion-body">
               {item.answer}
@@ -134,14 +134,14 @@ function FAQ({ faqData }) {
 }
 
 function Intern() {
-  
-
   return (
-    <div className="container">
-      <Heading content="Internship"/>
+    <div className="intern-container">
       <Internship />
-      <Heading content="Internship FAQs"/>
-      <FAQ faqData={faqData} />
+      <div className="faq-section">
+        <div className="panel-eyebrow">Questions</div>
+        <div className="panel-title">Internship FAQs</div>
+        <FAQ faqData={faqData} />
+      </div>
     </div>
   );
 }

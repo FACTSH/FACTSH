@@ -1,0 +1,30 @@
+.obj-component {
+  padding: 24px 26px;
+  margin: 10px;
+  flex: 1 1 320px;
+  max-width: 480px;
+  text-align: left;
+  border-radius: var(--radius);
+  background: var(--panel);
+  border: 1px solid var(--gold-line);
+  box-shadow: var(--shadow-soft);
+}
+
+.obj-component h3 {
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--gold);
+  margin-bottom: 12px;
+}
+
+.obj-component ul {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.65;
+  padding-left: 18px;
+}
+
+.obj-component ul li{
+  margin-bottom: 8px;
+}

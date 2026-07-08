@@ -1,25 +1,27 @@
 .obj-component {
-    background-color: #fff5e7;
-    padding: 20px;
-    margin: 20px;
+    background: var(--panel);
+    border: 1px solid var(--gold-line);
+    padding: 24px 26px;
+    margin: 10px;
     flex: 1 1 300px;
-    border-radius: 50px;
-    background: #fad2d8;
-    box-shadow: 20px 20px 60px #fff5e7, -20px -20px 60px #bfa5a3;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-soft);
   }
-  
+
+  .obj-component h3 {
+    font-family: var(--serif);
+    color: var(--gold);
+    margin-bottom: 12px;
+  }
+
   .obj-component ul {
-    color: #000000;
+    color: var(--muted);
+    padding-left: 18px;
   }
   .obj-component a{
     text-decoration: none;
-    color: #000000;
+    color: var(--ink);
   }
-  .tx-color{
-    color: #000000;
-  }
-  .marq-css{
-    background-color: #d19ea4;
-    color: #000000;
-    font-size: 20px;
+  .obj-component a:hover{
+    color: var(--gold);
   }

@@ -2,6 +2,7 @@
 
 import React,{ useState, useEffect } from 'react';
 import './contact.css';
+import Footer from '../../components/Footer/Footer';
 
 
 const Contact = () => {
@@ -34,6 +35,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    <Footer />
     </>
   );
 };

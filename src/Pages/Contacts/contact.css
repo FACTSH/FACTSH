@@ -1,12 +1,14 @@
-/* Contact.css */
+/* Contact.css — dark theme */
 .responsivemap {
   overflow: hidden;
   height: auto;
   padding-bottom: 30%;
   position: relative;
   background-image: url('../../assets/images/map-placeholder.png');
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
+  filter: grayscale(0.3) brightness(0.85);
+  border-bottom: 1px solid var(--gold-line);
 }
 
 .responsivemap iframe {
@@ -20,41 +22,53 @@
 }
 
 .contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-  }
-  
-  .contact-card {
-    max-width: 400px;
-    width: 100%;
-    padding: 30px;
-    margin: 10px;
-    border-radius: 50px;
-  background: #fad2d8;
-  box-shadow: 20px 20px 60px #fff5e7, -20px -20px 60px #bfa5a3;
-  }
-  
-  .contact-card h2 {
-    color: #750616;
-  }
-  
-  .contact-info {
-    margin-top: 20px;
-  }
-  
-  .contact-info p {
-    margin: 20px 0;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  padding: 50px 20px;
+}
 
-  @media (max-width: 1200px) {
-    .responsivemap {
-      padding-bottom: 50%; /* Adjust width for smaller screens */
-    }
+.contact-card {
+  max-width: 420px;
+  width: 100%;
+  padding: 34px 30px;
+  margin: 10px;
+  text-align: left;
+  border-radius: var(--radius);
+  background: var(--panel);
+  border: 1px solid var(--gold-line);
+  box-shadow: var(--shadow-soft);
+}
+
+.contact-card h2 {
+  font-family: var(--serif);
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 14px 0;
+  color: var(--muted);
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+
+.contact-info strong{
+  color: var(--ink);
+}
+
+@media (max-width: 1200px) {
+  .responsivemap {
+    padding-bottom: 50%;
   }
-  @media (max-width: 768px) {
-    .responsivemap {
-      padding-bottom: 80%; /* Adjust width for smaller screens */
-    }
+}
+@media (max-width: 768px) {
+  .responsivemap {
+    padding-bottom: 80%;
   }
+}

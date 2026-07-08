@@ -35,7 +35,7 @@ const slides = [
   },
 
   {
-    name: "slider_img8.JPG",
+    name: "slider_img8.jpg",
   },
   
   

@@ -1,0 +1,25 @@
+.news-page{ padding-top: 4px; }
+
+.snapshots-block{ margin-top: 50px; text-align: center; }
+
+.snapshots-list{
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 24px;
+}
+
+.snapshot-item{
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--gold-line);
+  box-shadow: var(--shadow-soft);
+  background: var(--panel);
+}
+
+.snapshot-item img{
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}

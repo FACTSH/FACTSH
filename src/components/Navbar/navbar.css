@@ -1,30 +1,55 @@
-/* Common styles */
+/* Navbar — matches the door/panel reference nav */
 .Navbar {
-  height: 60px;
+  height: 66px;
   overflow: visible;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background:#750616;
-}
-.logo{
-padding: 5px;
-margin-top: 3px;
+  padding: 0 22px;
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  transition: background .4s ease, border-color .4s ease, backdrop-filter .4s ease;
 }
 
+.Navbar.scrolled{
+  background: rgba(11,7,8,0.88);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--gold-line);
+}
+
+.logo{
+  display: block;
+}
+
+.nav-mark{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--gold-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: var(--panel);
+}
 
 .strong-text {
-  font-weight: bolder;
-  font-size: x-large;
+  font-weight: 500;
+  font-size: 19px;
   text-decoration: none;
-  color: white;
+  color: var(--ink);
+  font-family: var(--serif);
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .Navbar > .nav-logo {
-  font-weight: 700;
-  font-size: 21px;
+  font-weight: 500;
+  font-size: 19px;
   margin: 15px;
-  color: white;
+  color: var(--ink);
 }
 
 .open {
@@ -32,16 +57,24 @@ margin-top: 3px;
 }
 
 .Navbar > .nav-items > a {
-  color: white;
-  font-size: 16px;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
   text-decoration: none;
   margin: 15px;
   position: relative;
-  opacity: 0.9;
+  padding-bottom: 3px;
+  transition: color 0.25s ease;
+}
+
+.Navbar > .nav-items > a strong {
+  font-weight: 500;
 }
 
 .Navbar > .nav-items > a:hover {
-  opacity: 1;
+  color: var(--ink);
 }
 
 .Navbar > .nav-items > a::before {
@@ -50,9 +83,9 @@ margin-top: 3px;
   left: 0;
   bottom: 0;
   width: 0;
-  height: 2px;
-  background: white;
-  transition: all 0.45s;
+  height: 1px;
+  background: var(--gold);
+  transition: width 0.3s ease;
 }
 
 .Navbar > .nav-items > a:hover::before {
@@ -67,10 +100,12 @@ margin-top: 3px;
 @media (max-width: 900px) {
   .Navbar > .nav-items {
     position: absolute;
-    top: 60px;
+    top: 66px;
     display: flex;
     flex-direction: column;
-    background:#750616;
+    background: rgba(11,7,8,0.97);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--gold-line);
     left: 0;
     width: 100%;
     height: auto;
@@ -100,7 +135,7 @@ margin-top: 3px;
     position: relative;
     width: 32px;
     height: 2px;
-    background: white;
+    background: var(--gold);
     transition: all 0.45s ease-in-out;
   }
 
@@ -109,7 +144,7 @@ margin-top: 3px;
     content: "";
     position: absolute;
     height: 2px;
-    background: white;
+    background: var(--gold);
     border-radius: 2px;
     transition: all 0.45s ease-in-out;
     z-index: 1;
@@ -140,16 +175,18 @@ margin-top: 3px;
     transform: rotate(-45deg) translate(26px, 26px);
   }
 }
+
 .nav-items{
   display: flex!important;
   justify-content: space-between;
 }
 a{
   text-decoration: none;
-  color: white;
+  color: var(--ink);
 }
 
 .nav-logo img{
-  width: 70px;
-  height: 70px;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
 }

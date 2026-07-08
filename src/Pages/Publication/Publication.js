@@ -4,64 +4,44 @@ import Heading from '../../components/Heading/Heading';
 import papers from '../../Content/papers';
 import acceptedPapers from '../../Content/acceptedPapers';
 
-const Publication = () => {
-  const openWebsite = (url) => {
-    window.open(url, '_blank').focus();
-  };
-
+const PaperCard = ({ paper }) => {
+  const hasLink = Boolean(paper.website);
   return (
-    <>
-    <div className='pub'>
-      <Heading content="Publications"/>
-      <table className="papers-table">
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Authors</th>
-            <th>Conference/Journal</th>
-            <th>Publisher</th>
-            <th>Year</th>
-          </tr>
-        </thead>
-        <tbody>
+    <div
+      className={`paper-card ${hasLink ? 'clickable' : ''}`}
+      onClick={hasLink ? () => window.open(paper.website, '_blank', 'noopener') : undefined}
+    >
+      <div className="paper-year">{paper.year}</div>
+      <h3 className="paper-title">{paper.title}</h3>
+      <p className="paper-authors">{paper.authors.join(", ")}</p>
+      <div className="paper-meta">
+        <span className="paper-venue">{paper.conference}</span>
+        {paper.publisher && <span className="paper-publisher">{paper.publisher}</span>}
+      </div>
+    </div>
+  );
+};
+
+const Publication = () => {
+  return (
+    <div className='pub-page'>
+      <div className='pub'>
+        <Heading eyebrow="Peer-reviewed" content="Publications" />
+        <div className="paper-grid">
           {papers.map((paper, index) => (
-            <tr key={index} onClick={() => openWebsite(paper.website)}>
-              <td>{paper.title}</td>
-              <td>{paper.authors.join(", ")}</td>
-              <td>{paper.conference}</td>
-              <td>{paper.publisher}</td>
-              <td>{paper.year}</td>
-            </tr>
+            <PaperCard paper={paper} key={index} />
           ))}
-        </tbody>
-      </table>
-    </div>
-    <div className='pub'>
-      <Heading content="Accepted Conference/Journal"/>
-      <table className="papers-table">
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Authors</th>
-            <th>Conference/Journal</th>
-            {/* <th>Publisher</th> */}
-            <th>Year</th>
-          </tr>
-        </thead>
-        <tbody>
+        </div>
+      </div>
+      <div className='pub'>
+        <Heading eyebrow="In press" content="Accepted Conference / Journal" />
+        <div className="paper-grid">
           {acceptedPapers.map((paper, index) => (
-            <tr key={index} onClick={() => openWebsite(paper.website)}>
-              <td>{paper.title}</td>
-              <td>{paper.authors.join(", ")}</td>
-              <td>{paper.conference}</td>
-              {/* <td>{paper.publisher}</td> */}
-              <td>{paper.year}</td>
-            </tr>
+            <PaperCard paper={paper} key={index} />
           ))}
-        </tbody>
-      </table>
+        </div>
+      </div>
     </div>
-    </>
   );
 };
 

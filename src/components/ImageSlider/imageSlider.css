@@ -1,3 +1,42 @@
+.carousel {
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--gold-line);
+  box-shadow: var(--shadow-soft);
+  background: var(--panel);
+}
+
+.carousel-inner img.imgs {
+  width: 100%;
+  aspect-ratio: 21/9;
+  object-fit: cover;
+  filter: saturate(0.9) contrast(1.02);
+}
+
+.carousel-inner::after{
+  content:"";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(11,7,8,0.55) 0%, transparent 40%);
+  pointer-events: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+  width: 6%;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: var(--gold);
+  opacity: 0.55;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.carousel-indicators .active{
+  opacity: 1;
+}
+
 .slider {
   position: relative;
   height: 100%;
@@ -7,7 +46,6 @@
   border-radius: 10px;
   background-size: cover;
   background-position: center;
-  /* border: 1px solid black; */
 }
 .slide img{
   border-radius: 10px;
@@ -20,18 +58,13 @@
   top: 50%;
   transform: translate(0, -50%);
   font-size: 45px;
-  color: #fff;
+  color: var(--ink);
   z-index: 1;
   cursor: pointer;
 }
 
-.left-arrow {
-  left: 32px;
-}
-
-.right-arrow {
-  right: 32px;
-}
+.left-arrow { left: 32px; }
+.right-arrow { right: 32px; }
 
 .dots-container {
   display: flex;
@@ -42,6 +75,5 @@
   margin: 0 3px;
   cursor: pointer;
   font-size: 20px;
+  color: var(--gold);
 }
-
-

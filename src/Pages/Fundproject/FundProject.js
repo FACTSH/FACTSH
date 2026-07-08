@@ -7,34 +7,27 @@ import collaborator from '../../Content/collaborator';
 const FundProject = () => {
   return (
     <div className='pro'>
-      <Heading content="COLLABORATORS"/>
+      <Heading eyebrow="Partners" content="Collaborators" />
       <div className="collaborator-container">
         {collaborator.map((data, index) => (
-          <img className='collab' key={index} src={require(`../../assets/icons/${data.image}`)} alt="Collaborator Logo" /> 
+          <div className="collab-card" key={index}>
+            <img className='collab' src={require(`../../assets/icons/${data.image}`)} alt={data.name} />
+          </div>
         ))}
       </div>
-      <Heading content="Funded Projects"/>
-      <div className="table-container">
-        <table className="project-table">
-          <thead>
-            <tr>
-              <th>Funding Agency</th>
-              <th>Title</th>
-              <th>Amount</th>
-              <th>Duration</th>
-            </tr>
-          </thead>
-          <tbody>
-            {fundProjects.map((project, index) => (
-              <tr key={index}>
-                <td>{project.fundingAgency}</td>
-                <td>{project.title}</td>
-                <td>{project.amount}</td>
-                <td>{project.duration}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+
+      <Heading eyebrow="Research funding" content="Funded Projects" />
+      <div className="project-grid">
+        {fundProjects.map((project, index) => (
+          <div className="project-card" key={index}>
+            <div className="project-card-top">
+              <span className="project-tag">{project.fundingAgency}</span>
+              <span className="project-amount">{project.amount}</span>
+            </div>
+            <h3 className="project-title">{project.title}</h3>
+            <div className="project-duration">{project.duration}</div>
+          </div>
+        ))}
       </div>
     </div>
   );

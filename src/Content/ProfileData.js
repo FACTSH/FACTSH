@@ -8,7 +8,6 @@ const ProfileData = {
       website:"",
       image: "ebindeniraj.png",
       designation: "Faculty- IIIT KOTTAYAM",
-      position: "Associate Dean (Academic Affairs)",
       research: [
         "Responsible AI",
         "Explainable & Interpretable AI",
@@ -24,7 +23,6 @@ const ProfileData = {
       website:"",
       image: "aruncyril.png",
       designation: "Faculty- IIIT KOTTAYAM",
-      position: "Institute CVO",
       research: ["Privacy", "Security based Social Engineering"],
     },
 
@@ -36,7 +34,6 @@ const ProfileData = {
       website:"",
       image: "gayathri.png",
       designation: "Faculty- IIIT KOTTAYAM",
-      position: "Faculty In-Charge (Cultural Club,Social Media & Branding)",
       research: ["Cultural Studies", "Language Teaching"],
     },
 
@@ -48,7 +45,6 @@ const ProfileData = {
       website:"",
       image: "jsahoo.png",
       designation: "Faculty- IIIT KOTTAYAM",
-      position: "HOD (Computer Science & Engineering-1)",
       research: ["Machine Learning", "Data Mining"],
     },
 
@@ -60,8 +56,6 @@ const ProfileData = {
       website:"",
       image: "JS.jpg",
       designation: "Faculty- IIIT KOTTAYAM",
-      position:
-        "Faculty In-Charge(Webservices & Public Relations),Nodal Officer, AISHE,Associate Faculty In-Charge (Training & Placement Cell)",
       research: ["Cultural Hegemony", "Sociological Studies"],
     },
     {
@@ -72,8 +66,6 @@ const ProfileData = {
       website:"",
       image: "divyasindhulekha.png",
       designation: "Faculty- IIIT KOTTAYAM",
-      position:
-        "Post Doc CUSAT, Ph.D. from University of Kerala, Awarded National Post-Doctoral Fellowship, SERB, DST, GOI, former employee HCL Technologies Ltd.",
       research: ["Graph Theory", "Network Science", "Algorithms"],
     },
     {
@@ -84,8 +76,6 @@ const ProfileData = {
       website:"",
       image: "jeena_thomas.jpeg",
       designation: "Faculty- IIIT KOTTAYAM",
-      position:
-        "Ph.D from IIIT Kottayam, DST Woman Scientist (Recipient of WOS-A), Doctoral Fellowship from IIT Palakkad Technology IHub Foundation (IPTIF)",
       research: ["Computer Vision","Image Processing","Responsible Artificial Intelligence"],
     },
     {
@@ -96,7 +86,6 @@ const ProfileData = {
       website:"https://www.iiitkottayam.ac.in/#!/faculty/sara",
       image: "Sara.jpeg",
       designation: "Faculty- IIIT KOTTAYAM",
-      position:"Ph.D from Cochin University of Science and Technology, 2024",
       research: ["Natural Language Processing", "Explainable AI","DevOps & Agile"],
     },
     {
@@ -107,7 +96,6 @@ const ProfileData = {
       website:"https://iiitkottayam.ac.in/#!/faculty/sushitha",
       image: "Sushitha.jpeg",
       designation: "Faculty- IIIT KOTTAYAM",
-      position:"Ph.D from Vellore Institute of Technology, 2024",
       research: ["Machine Learning", "Deep Learning", "Medical Image Processing"],
     },
     {
@@ -118,7 +106,6 @@ const ProfileData = {
       website:"https://www.iiitkottayam.ac.in/#!/faculty/ansiths",
       image: "Ansith_Sivadasan.JPG",
       designation: "Faculty- IIIT KOTTAYAM",
-      position:"Ph.D pursuing from IIIT KOTTAYAM, 2025",
       research: ["Remote sensing","Computer vision", "Deep learning", "Explainable AI", "image processing"],
 
     },
@@ -130,7 +117,6 @@ const ProfileData = {
       website:"https://www.iiitkottayam.ac.in/#!/faculty/anumaria",
       image: "anumaria.jpg",
       designation: "Faculty- IIIT KOTTAYAM",
-      position:"Cochin University of Science and Technology (2025)",
       research: ["Data centric AI and missing data imputation","Data analysis for Healthcare  Explainable AI" , "Multimodal AI systems"],
 
     },
