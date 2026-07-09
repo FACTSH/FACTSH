@@ -10,6 +10,9 @@ const collaborator =[{
     name:"iiit palakkad",
     image:"iit_palakkad.jpeg"
 },
-
+{
+    name:"ICMR",
+    image:"main_logo.svg"
+},
 ]
 export default collaborator;

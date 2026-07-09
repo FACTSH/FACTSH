@@ -1,5 +1,13 @@
 const fundProjects = [
     {
+        fundingAgency: " INDIAN COUNCIL OF MEDICAL RESEARCH " ,
+        title: "Smartphone Imaging-Based Artificial Intelligence Model for Early Detection and Screening of Ocular Surface and Eyelid Tumours: A Multicentric Study",
+        amount: "66,00,000",
+        duration: "2 years"
+    },
+    
+     
+    {
         fundingAgency: "Mozilla RCC",
         title: "Framework to gain Insights on Fairness, Accountability, and Transparency of Algorithms from a Sociological Perspective",
         amount: "$ 25,000",

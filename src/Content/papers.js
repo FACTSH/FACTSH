@@ -1,4 +1,137 @@
 const papers = [
+  {
+    "authors": ["Shahad P.", "Ebin Deni Raj"],
+    "title": "Enhancing model adaptability and transparency: i-MAAR algorithm for non-stationary streaming data analysis",
+    "conference": "Knowledge-Based Systems",
+    "publisher": "Elsevier",
+    "year": 2026
+  },
+  {
+    "authors": ["Ashly Ann Jo", "Ebin Deni Raj", "S. Srinivasalu"],
+    "title": "Agent-Based Modelling of the Indian Public Distribution System in AI FORA",
+    "conference": "Participatory Modelling and Simulation to Improve AI-based Public Social Services",
+    "publisher": "Springer",
+    "year": 2026
+  },
+  {
+    "authors": ["Mahesh Sasikumar", "Ashly Ann Jo", "Ebin Deni Raj"],
+    "title": "Better AI for Public Good: Participatory Modelling and Simulation in Social Services",
+    "conference": "Participatory Modelling and Simulation to Improve AI-based Public Social Services",
+    "publisher": "Springer",
+    "year": 2026
+  },
+  {
+    "authors": ["S. Palathingal", "Ebin Deni Raj"],
+    "title": "Resource-Aware Conditional Cascaded (RACC-SLM) framework for zero-shot intent detection in real-time voice streams",
+    "conference": "Computing",
+    "publisher": "Springer",
+    "year": 2026
+  },
+  {
+    "authors": ["Ashly Ann Jo", "Ebin Deni Raj"],
+    "title": "Auditable Credit Scoring: Explainable Models with Stable Rationales on Tabular Data",
+    "conference": "International Conference on AI-Driven Smart Systems and Ubiquitous Computing",
+    "publisher": "IEEE",
+    "year": 2026
+  },
+  {
+    "authors": ["Ebin Deni Raj", "Divya Sindhu Lekha", "Ashly Ann Jo"],
+    "title": "Teaching Explainable Machine Learning to Interdisciplinary Learners: A Pedagogical Model for Responsible AI",
+    "conference": "Computing Education Research, 18th Annual ACM India Compute Conference",
+    "publisher": "ACM",
+    "year": 2025
+  },
+  {
+    "authors": ["Ebin Deni Raj", "Divya Sindhu Lekha", "Ashly Ann Jo", "Arun Cyril Jose"],
+    "title": "Teaching Explainable Machine Learning to Interdisciplinary Learners: A Pedagogical Model for Responsible AI Education",
+    "conference": "Annual ACM India Compute Conference",
+    "publisher": "ACM",
+    "year": 2025
+  },
+  {
+    "authors": ["Konyala Anish Reddy", "A. Kumar", "S. Maurya", "Mahesh Sasikumar", "Ebin Deni Raj"],
+    "title": "Enhancing Air Quality Prediction with Explainable Machine Learning and Deep Learning Models",
+    "conference": "International Conference on Responsible, Generative and Explainable AI",
+    "publisher": "IEEE",
+    "year": 2025
+  },
+  {
+    "authors": ["Ebin Deni Raj"],
+    "title": "Emotion Analysis Using Explainability-Driven AI for Enhanced Interpretability",
+    "conference": "International Conference on Responsible, Generative and Explainable AI",
+    "publisher": "IEEE",
+    "year": 2025
+  },
+  {
+    "authors": ["Ebin Deni Raj"],
+    "title": "Swin-rsic: remote sensing image classification using a modified swin transformer with explainability",
+    "conference": "Earth Science Informatics",
+    "publisher": "Springer",
+    "year": 2025
+  },
+  {
+    "authors": ["Petra Ahrweiler", "N. Gilbert", "M. Bicket", "A. Sabater Coll", "E. Spaeth", "H. Bashiri", "et al."],
+    "title": "Agent-Based Modelling for Public Social Service Distribution",
+    "conference": "International Workshop on Multi-Agent Systems and Agent-Based Simulation",
+    "publisher": "Springer",
+    "year": 2025
+  },
+  {
+    "authors": ["Ashly Ann Jo", "Ebin Deni Raj", "Jayakrushna Sahoo"],
+    "title": "Efficiency and performance optimization in large language models through ib fine-tuning",
+    "conference": "ACM Transactions on Intelligent Systems and Technology",
+    "publisher": "ACM",
+    "year": 2025
+  },
+  {
+    "authors": ["A.K. Nair", "S. Coleri", "Jayakrushna Sahoo", "L.R. Cenkeramaddi", "Ebin Deni Raj"],
+    "title": "Incentivized federated learning: A survey",
+    "conference": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+    "publisher": "IEEE",
+    "year": 2025
+  },
+  {
+    "authors": ["S. Srinivasalu", "M. Selladurai", "S. Sharma", "G. Perumal", "M. Mathaiyan", "Ashly Ann Jo", "et al."],
+    "title": "Social Assessment and Cultural Resistance: The Public Distribution System in Tamil Nadu, India",
+    "conference": "Participatory Artificial Intelligence in Public Social Services: From Bias to Better Outcomes",
+    "publisher": "Springer",
+    "year": 2025
+  },
+  {
+    "authors": ["G. Perumal", "M. Mathaiyan", "Ebin Deni Raj"],
+    "title": "The Public Distribution System in Tamil Nadu, India",
+    "conference": "Participatory Artificial Intelligence in Public Social Services: From Bias to Better Outcomes",
+    "publisher": "Springer",
+    "year": 2025
+  },
+  {
+    "authors": ["Subodh Uniyal", "Maitri Deepak Savla", "Ashly Ann Jo", "Ebin Deni Raj"],
+    "title": "Transparency in legal AI: Pioneering explainable NLP for enhanced judgement prediction",
+    "conference": "Data Science & Exploration in Artificial Intelligence",
+    "publisher": "CRC Press",
+    "year": 2025
+  },
+  {
+    "authors": ["Ashly Ann Jo", "Ebin Deni Raj", "A. Chakraborty"],
+    "title": "MaternaAI: Enhancing Equitable Maternal Healthcare in Kerala with Fairness-Aware and Explainable Learning Models",
+    "conference": "",
+    "publisher": "",
+    "year": 2025
+  },
+  {
+    "authors": ["Mahesh Sasikumar", "Ebin Deni Raj"],
+    "title": "Investigating explainability of deep learning models for sequential data on stock price prediction",
+    "conference": "Procedia Computer Science",
+    "publisher": "Elsevier",
+    "year": 2025
+  },
+  {
+    "authors": ["Jeena Thomas", "Ebin Deni Raj"],
+    "title": "Improved image dehazing model with color correction transform-based dark channel prior",
+    "conference": "The Visual Computer",
+    "publisher": "Springer",
+    "year": 2024
+  },
 
   {
     "authors": ["Shahad P.", "Ebin Deni Raj"],

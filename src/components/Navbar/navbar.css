@@ -176,9 +176,23 @@
   }
 }
 
-.nav-items{
-  display: flex!important;
+.Navbar > .nav-items{
+  display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 900px){
+  .Navbar > .nav-items{
+    justify-content: flex-start;
+    max-height: calc(100vh - 66px);
+    overflow-y: auto;
+  }
+  .Navbar > .nav-items > a{
+    margin: 0;
+    padding: 16px 22px;
+    width: 100%;
+    border-bottom: 1px solid var(--gold-line);
+  }
 }
 a{
   text-decoration: none;

@@ -26,6 +26,13 @@
   width: 6%;
 }
 
+@media (max-width: 600px){
+  .carousel-control-prev,
+  .carousel-control-next{
+    width: 14%;
+  }
+}
+
 .carousel-indicators [data-bs-target]{
   background-color: var(--gold);
   opacity: 0.55;
@@ -76,4 +83,12 @@
   cursor: pointer;
   font-size: 20px;
   color: var(--gold);
+}
+
+@media (max-width: 600px){
+  .slide { width: 88% !important; }
+  .slide img{ width: 94%; }
+  .arrow{ font-size: 30px; }
+  .left-arrow { left: 10px; }
+  .right-arrow { right: 10px; }
 }

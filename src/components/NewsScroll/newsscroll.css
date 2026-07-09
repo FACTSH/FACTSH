@@ -43,3 +43,9 @@
 .scroll-link:hover .scroll-title{ text-decoration: underline; text-decoration-color: #7a1620; }
 .scroll-tag{ display: block; font-family: var(--mono); font-size: 9.5px; letter-spacing: .06em; text-transform: uppercase; color: #8a6a3a; margin-top: 4px; }
 .scroll-arrow{ font-family: var(--mono); color: #7a1620; font-size: 13px; margin-top: 2px; }
+
+@media (max-width: 480px){
+  .scroll-parchment{ padding: 28px 18px 32px; }
+  .scroll-head{ font-size: 19px; }
+  .scroll-list{ gap: 12px; }
+}

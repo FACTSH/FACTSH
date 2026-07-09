@@ -1,4 +1,9 @@
 const News = [
+      {
+            "news":" FACTS-H Lab is co-hosting CHORDS 2026",
+            "link":"https://chords.iiitkottayam.ac.in",
+            "description":"Bridging the gap between rigid computation and human societal dynamics, the FACTS-H Lab proudly joins forces with the Department of Computational Mathematics and Humanities to co-host CHORDS 2026."
+       },
       
 
       {
