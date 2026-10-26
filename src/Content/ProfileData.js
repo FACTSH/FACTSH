@@ -34,7 +34,7 @@ const ProfileData = {
       website:"",
       image: "gayathri.png",
       designation: "Faculty- IIIT KOTTAYAM",
-      research: ["Cultural Studies", "Language Teaching"],
+      research: ["Digital Humanities", "Cultural Analytics","GeoSpatial Analysis"],
     },
 
     {
